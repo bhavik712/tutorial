@@ -221,6 +221,7 @@ p{
     text-transform: uppercase;
     font-weight: 800;
     color: white;
+    cursor: pointer;
 }
 .b2{
     float: right;
@@ -230,6 +231,7 @@ p{
     text-transform: uppercase;
     font-weight: 800;
     color: white;
+    cursor: pointer;
 
 }
 .group4::before,
@@ -272,3 +274,4 @@ p{
     display: inline;
     text-align: center;
 }
+
