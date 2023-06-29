@@ -1,5 +1,7 @@
 :root{
     --bgcolor: #d4f1f9;
+    --btn_bgcolor: #0f0;
+    --fcolor: #000;
 }
 
 body{
@@ -47,7 +49,7 @@ body{
     *zoom:1;
 }
 .group{
-    background-color:var(--bgcolor)
+    background-color:var(--bgcolor);
 }
 
 
@@ -125,12 +127,13 @@ aside{
     line-height: 40px;
 }
 a:hover{
-    background-color: blueviolet;
+    --bgcolor: blueviolet;
+    background-color: var(--bgcolor);
     color:blue;
 }
 
 a{
-    color:black;
+    color:var(--fcolor);
     text-decoration: none;
 }
 
@@ -152,19 +155,19 @@ ul li{
 h2{
     font-size: xx-large;
     line-height: 1.5em;
-    color: black;
+    color: var(--fcolor);
     padding: 5px 0px 2px 0px;
     text-align: center;
     text-decoration: wavy;
 }
 
 .div1{
-    border: 1px solid black;
+    border: 1px solid var(--fcolor);
 }
 .div2{
     padding-top: 0px;
     background-color: rgb(219, 241, 234);
-    border: 1px solid black;
+    border: 1px solid var(--fcolor);
 }
 
 .form{
@@ -180,7 +183,7 @@ h2{
     margin-top: 5px;
     margin-bottom: 15px;
     box-sizing: border-box;
-    border: 1px solid black;
+    border: 1px solid var(--fcolor);
     border-radius: 5px;
 
 }
@@ -190,7 +193,8 @@ h2{
     color: blue;
 }
 .btn{
-    background-color: green;
+    
+    background-color: var(--btn_bgcolor);
     margin-top: 10px;
 }
 
@@ -203,7 +207,7 @@ h2{
     border-collapse: collapse;
 }
 th,td{
-    border:1px solid black;
+    border:1px solid var(--fcolor);
     padding-left: 10px;
     padding-right: 10px;
    
@@ -219,7 +223,7 @@ p{
 }
 .b1{
     float:left;
-    background-color: rgb(29, 243, 29);
+    background-color: var(--btn_bgcolor);
     margin: 0 0 20px 20px;
     font-size: 20px;
     text-transform: uppercase;
@@ -230,7 +234,7 @@ p{
 .b2{
     float: right;
     margin: 0 20px 20px 0;
-    background-color: rgb(29, 243, 29);
+    background-color: var(--btn_bgcolor);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 800;
