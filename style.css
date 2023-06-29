@@ -1,3 +1,7 @@
+:root{
+    --bgcolor: #d4f1f9;
+}
+
 body{
     /*background-color: rgba(255,102,0,0.5);*/
     background-image: url(https://lh5.googleusercontent.com/proxy/xvtq6_782kBajCBr0GISHpujOb51XLKUeEOJ2lLPKh12-xNBTCtsoHT14NQcaH9l4JhatcXEMBkqgUeCWhb3XhdLnD1BiNzQ_LVydwg=w3840-h2160-p-k-no-nd-mv);
@@ -43,7 +47,7 @@ body{
     *zoom:1;
 }
 .group{
-    background-color:#d4f1f9;
+    background-color:var(--bgcolor)
 }
 
 
@@ -92,17 +96,17 @@ aside{
 .side1{
     height:840px;
     width:15%;
-    background-color: #d4f1f9;
+    background-color: var(--bgcolor);
 
 }
 .sec1{
-    background-color: #d4f1f9; 
+    background-color: var(--bgcolor); 
     float: left;
     width: 78.6%;
 }
 .sec2{
     height:840px;
-    background-color: #d4f1f9;
+    background-color: var(--bgcolor);
     float: right;
     width: 20%;
     margin-right: 20px;
@@ -112,7 +116,7 @@ aside{
 .welcome{
     text-align: center;
     width: 100%;
-    background-color: #d4f1f9;
+    background-color: var(--bgcolor);
     margin-top: 1px;
     padding:5px 0 5px 0;
     font-style: oblique;
